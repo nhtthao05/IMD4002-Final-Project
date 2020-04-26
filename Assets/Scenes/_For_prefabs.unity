@@ -120,6 +120,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &178423267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178423269}
+  - component: {fileID: 178423268}
+  m_Layer: 0
+  m_Name: TEXT_HERE (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &178423268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178423267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc882dc947348984ab316f6d11e3524f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TEXT_INFO: "Twitch.tv Live Streaming Service \tTwitch.tv is the live streaming service
+    that is responsible for helping create such a booming economy for ESports. Although
+    some mainstream cable tv networks are starting to showcase some ESports, the main
+    way people interact with competitive gaming is through Twitch.tv.  The difference
+    is that you can interact with your favourite streamers in their chatbox and possibly
+    get them to respond to you directly, all in real time. This brings forward a different
+    kind of fan community compared to standard sports and even the YouTube community.
+    As a fan, you can interact and react to events live, together, while all watching
+    the same thing. That is a unique thing that is not being done by mainstream sports
+    broadcasting.  "
+--- !u!4 &178423269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178423267}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &284557482
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +285,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc882dc947348984ab316f6d11e3524f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TEXT_INFO: "What Is ESports? \tESports is a recent phenomenon that has emerged in
+    the gaming world and is ever expanding. The term ESports is a shortened version
+    of \u2018Electronic Sports\u2019, it is a form of sport competition using video
+    games. Just like regular sports, the general idea is that fans are watching the
+    absolute best players in the world competing against each other, usually for some
+    sort of championship. Last year, ESports, drew an estimated 285 million viewers
+    globally with a Millennials audience share two-to-three times more than that for
+    the big four U.S. sports. The most common video game genres that appear in ESports
+    are multiplayer online battle arena, first person shooters, fighting games, card
+    games, battle royals, and real time strategy. In short most of the games in the
+    ESports world revolve around an online multiplayer experience, in which players
+    are pitted against each other head to head. "
 --- !u!4 &453515776
 Transform:
   m_ObjectHideFlags: 0
@@ -429,4 +494,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1977156824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1977156826}
+  - component: {fileID: 1977156825}
+  m_Layer: 0
+  m_Name: TEXT_HERE (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1977156825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977156824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc882dc947348984ab316f6d11e3524f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TEXT_INFO: ' Merchandising Fans of ESports have shown that they embrace innovative
+    opportunities to play, display, wear and live the brands they love. This can include
+    everything from virtual skins to re-imagined apparel, accessories, trading cards,
+    publishing, toys, collectibles, memorabilia, customized headwear and, of course,
+    headsets and gaming equipment. Rocket League, a video game with a growing ESports
+    fan base has a great example of how fans can support their favourite teams. The
+    game developers are very much involved in the competitive aspect of the game,
+    and have created a marketplace in which players can buy virtual car decals, wheels,
+    and accessories that are all designed with logos and colours of the competitive
+    teams. '
+--- !u!4 &1977156826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977156824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
