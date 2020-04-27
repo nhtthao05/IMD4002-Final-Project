@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class charcontroller : MonoBehaviour
 {
@@ -11,8 +12,12 @@ public class charcontroller : MonoBehaviour
 
     Vector3 foward, right;
     public Text text_warn;
-
+    private bool pressed_e = false;
     Animator anim;
+    GameObject dialoguer;
+
+    public GameObject firstdialogue;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +27,14 @@ public class charcontroller : MonoBehaviour
         foward.y = 0;
         foward = Vector3.Normalize(foward);
         right = Quaternion.Euler(new Vector3(0, 90, 0)) * foward;
+        firstdialogue.GetComponent<dialoguetrigger>().TriggerDialogue();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKey)
+        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s"))
             move();
         else
         {
@@ -38,11 +45,19 @@ public class charcontroller : MonoBehaviour
 
         if (Input.GetKey("e"))
         {
+            pressed_e = true;
             if (check_forInfo("info", 3))
             {
-
+                
+                dialoguer.GetComponent<dialoguetrigger>().TriggerDialogue();
             }
            
+        }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            //Debug.Log("test");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
 
         if (check_forInfo("info", 3)){
@@ -78,13 +93,15 @@ public class charcontroller : MonoBehaviour
         for (int i = 0; i < taginfo.Length; ++i)
         {
             if (Vector3.Distance(transform.position, taginfo[i].transform.position) <= minimumDistance)
-            {Debug.Log(" close");
+            {//Debug.Log(" close");
+                if (pressed_e) dialoguer = taginfo[i];
+                pressed_e = false;
                 return true;
                 
             }
         }
 
-        Debug.Log("not close");
+       // Debug.Log("not close");
 
         return false;
     }

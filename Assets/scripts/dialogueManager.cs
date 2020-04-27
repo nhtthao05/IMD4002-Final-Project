@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class dialogueManager : MonoBehaviour
 {
+
+    public Animator animator;
+
     public GameObject textzone;
     public Text title;
     public Text Content;
@@ -15,10 +18,13 @@ public class dialogueManager : MonoBehaviour
     {
         
         sentences = new Queue<string>();
+
+
     }
 
     public void StartDialogue(object_dialoge dialologue)
     {
+        animator.SetBool("isopen", true);
         
         Debug.Log("Starting conversation with " + dialologue.name);
         sentences.Clear();
@@ -41,10 +47,24 @@ public class dialogueManager : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
-        Content.text = sentence;
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
     }
+
+    IEnumerator TypeSentence (string sentence)
+    {
+        Content.text = " ";
+
+        foreach(char letter in sentence.ToCharArray())
+        {
+            Content.text += letter;
+            yield return null;
+        }
+    }
+
     void EndDialogue()
         {
+        animator.SetBool("isopen", false);
         Debug.Log("end convo");
         }
 }

@@ -156,8 +156,20 @@ Transform:
   - {fileID: 1004239698}
   - {fileID: 1363641804}
   - {fileID: 1963211586}
+  - {fileID: 1568447159}
+  - {fileID: 1608118062}
+  - {fileID: 149248072}
+  - {fileID: 955835451}
+  - {fileID: 578094539}
+  - {fileID: 980120975}
+  - {fileID: 495532096}
+  - {fileID: 246974792}
+  - {fileID: 157008359}
+  - {fileID: 137565914}
+  - {fileID: 1913579129}
+  - {fileID: 1833120660}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &21404310
 GameObject:
@@ -333,6 +345,56 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &91752038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 91752040}
+  - component: {fileID: 91752039}
+  m_Layer: 0
+  m_Name: First entry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &91752039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91752038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9392fa373224624abeeb447b29eb493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: INSTRUCTION
+    sentences:
+    - Welcome to the Esport documentation interactive game.
+    - 'To move around use the w a s d keys of your key board. Once you get near a
+      green nugget of knowledge, press the e key  to start a nice dialogue of info. '
+    - Finally press the escape key to go back to main menu
+--- !u!4 &91752040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91752038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.692153, y: 1.6170382, z: 6.124432}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &93845186
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +478,7 @@ Transform:
   - {fileID: 115914582}
   - {fileID: 1110646128}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &100663644
 GameObject:
@@ -490,7 +552,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &115914578
 GameObject:
@@ -584,6 +646,310 @@ Transform:
   m_Father: {fileID: 93845189}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!1001 &137565913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Fanatism parralel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'When looking at Esports it might look strange to wonder why a group
+        of people all would decide to get together to watch basically video games. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: To help you understand a bit more here is a simple parallel that is similar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: They all wanna watch the superbowl and all celebrate it together. That
+        is exactly the same sentiment that gets esports fan together.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &137565914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 137565913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &149248071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Aggressive '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "The enjoyment of aggression refers to the enjoyment when seeing the
+        aggressive behavior by the players. The research found that aggressive in
+        sport that significantly impacts the consumption. During the match, professional
+        players is having the aggressive behavior like smash the table, swearing\u2026"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &149248072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 149248071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &157008358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Toxicity and help '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Unfortunately, esports is not perfect and can be prone to sometime promote
+        toxic behavior towards others.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'Via influences viewers that look at a top-level player of their favorite
+        game will want to imitate them to become like them. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'That can be fine but if the player has a toxic behavior to opponents
+        and disrespect it can promote horrible behavior in communities. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Thankfully, organization have a lot of rules and sanction in place to
+        suppress those behavior to a minimum.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &157008359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 157008358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &168049834
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +1148,7 @@ Transform:
   m_Children:
   - {fileID: 1012493326}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
 --- !u!1001 &220650972
 PrefabInstance:
@@ -850,6 +1216,43 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Merchandising '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Fans of Esports have shown that they embrace innovative opportunities
+        to play, display, wear and live the brands they love. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: This can include everything from virtual skins to re-imagined apparel,
+        accessories, trading cards, publishing, toys, collectibles, memorabilia, customized
+        headwear and, of course, headsets and gaming equipment
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'Rocket League, a video game with a growing ESports fan base has a great
+        example of how fans can support their favourite teams. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'The game developers are very much involved in the competitive aspect
+        of the game, and have created a marketplace in which players can buy virtual
+        car decals, wheels, and accessories that are all designed with logos and colours
+        of the competitive teams.  '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
@@ -945,6 +1348,110 @@ Transform:
   m_Father: {fileID: 93845189}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1001 &246974791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'A observation with the present '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'At the time of making this piece the world has gone on lockdown due
+        to the Covid-19 virus. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Something interesting that is happening in the world of sports is the
+        adaptation of some sporting events. A lot of event that were considered sports
+        are actually turning to esports to keep the events going
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: This can be seen with Formula 1 hosting its first virtual race over the
+        game F1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &246974792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 246974791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &247916580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +1513,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 14
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 0
@@ -1086,8 +1593,204 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &366644804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.902275
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75012046
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.061426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: What attract people to watch eSport
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: In this room you will find many reasons why people watch Esports
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: There are ten reasons that attract people to watch an eSport, Vicarious
+        achievement, an appreciation of aesthetic aspects, physical attractiveness,
+        drama, escapism, acquiring knowledge, an application of player skills, social
+        interaction, novelty and aggressive.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!1001 &495532095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'The vicarious achievement '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "Vicarious achievement refers to empathizing with people or characters
+        with the achievement. Professional players using YouTube, Twitch\u2026 to
+        communicate with fans allows having deeper connection, the feeling of vicarious
+        achievement increase. So fans will feel extremely happy if the professional
+        player wins."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &495532096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 495532095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &551205990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,6 +1883,98 @@ Transform:
   m_Father: {fileID: 93845189}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1001 &578094538
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'The appreciation of player skills '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: '- Some spectators is not just watching the game. They actually play
+        the game, they understand what is going on in the game and admire the way
+        professional players approach and solve the problem in the game. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &578094539 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 578094538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &604106726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,7 +2309,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &732077395
 GameObject:
@@ -1712,6 +2507,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: A industry that changes university
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Sports grants are common place in scholar environment. Great players
+        get awarded money to play well for the schools team. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'A interesting phenomenon that can be observe in recent time is the rise
+        of esports grants. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "Schools now form teams to compete in tournaments and bring the virtual
+        gold back home. It\u2019s a new facets of competion and grants that shows
+        the evolution and importance the industry has on education."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Local examples of teams for Carleton University can be found with the
+        Tespa organization.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
 --- !u!4 &797911560 stripped
@@ -1763,9 +2593,193 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb598c1e7660be40aff17e9cb979102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 26226346}
   textzone: {fileID: 26226342}
   title: {fileID: 175926162}
   Content: {fileID: 247916582}
+--- !u!1001 &955835450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Escapism '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Escapism refers to seeking for distraction and relief from unpleasant
+        realities. Therefore, people come to eSport for a relief. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &955835451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 955835450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &980120974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Social interaction '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'In eSport, viewers allowed commenting on the events of the game and
+        also cheering for their favorite team. This creating bonds between players
+        and viewers.  '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &980120975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 980120974}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1004239698 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
@@ -2231,7 +3245,7 @@ RectTransform:
   - {fileID: 26226343}
   - {fileID: 646874180}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2304,6 +3318,30 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Impact of eSport
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: The large number of viewers proves that eSport has a strong fanbase and
+        audiences. There are multiple sports leagues and competition all over the
+        world.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "For example: Major League Gaming, World Cyber Games,\u2026  eSport is
+        becoming both business term (making profit) and societal term (viewers and
+        fanbase)."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
@@ -2392,6 +3430,91 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 75d3a58b3d7879f41926561701407a48, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
+--- !u!1001 &1336404021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Credits
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Game made by the collaborative effort of Etienne Doucet-Leger, Thao Nguyen
+        and  Sven Whitesell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
 --- !u!1 &1349373316
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,8 +3686,216 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Popularity Of eSport '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'The eSports are one of the most rapidly growing media in the world.
+        Thanks to the games with multiplayer option and live streaming platform on
+        the internet.  eSports even surpass the traditional sport. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: There is estimated 70 million people watch eSport online. There are about
+        8.5 million online viewers who watch the Championship (eSports) compare to
+        FA Cup Finals 7.2 million viewers of ITV broadcast  in the same year.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!1001 &1568447158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Drama '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Drama is an important contributor to viewing. Many eSport games have
+        randomness and asymmetry system to increase uncertain outcomes of the game
+        match. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &1568447159 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1568447158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1608118061
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5722222}
+    m_Modifications:
+    - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_Name
+      value: info_what is esports (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Acquiring knowledge '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Acquiring knowledge refers to the media able to provide knowledge to
+        the consumer. During the streaming time, professional players can shared or
+        viewer able to catch the strategies and tactics form the player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &1608118062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1608118061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1655594558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,7 +4058,20 @@ PrefabInstance:
     - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
         type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Physical attractiveness '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'The appreciations when audience finds that professional are physically
+        attractive. Studies show that people usually sympathy with one has physically
+        attractive at first glance. In fact that in eSports, players are physically
+        fitter than the average person. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
@@ -2890,8 +4234,47 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Twitch.tv Live Streaming Service
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Twitch.tv is the live streaming service that is responsible for helping
+        create such a booming economy for ESports. Although some mainstream cable
+        tv networks are starting to showcase some ESports, the main way people interact
+        with competitive gaming is through Twitch.tv. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: The difference is that you can interact with your favourite streamers
+        in their chatbox and possibly get them to respond to you directly, all in
+        real time. This brings forward a different kind of fan community compared
+        to standard sports and even the YouTube community.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'As a fan, you can interact and react to events live, together, while
+        all watching the same thing. That is a unique thing that is not being done
+        by mainstream sports broadcasting.  '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
+--- !u!4 &1833120660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336404021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1906513028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2959,6 +4342,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'An appreciation of aesthetic aspects '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Studies show that sports as gymnastics or figure skating which scored
+        to attract viewers who love the aesthetic. So game is creating a good visual
+        to attract people to it. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
 --- !u!4 &1907028021 stripped
@@ -2966,6 +4366,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c,
     type: 3}
   m_PrefabInstance: {fileID: 1328322401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1913579129 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
+    type: 3}
+  m_PrefabInstance: {fileID: 366644804}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1963211586 stripped
 Transform:
@@ -3089,7 +4495,7 @@ Transform:
   - {fileID: 1907028021}
   - {fileID: 21404311}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1993163954
 MonoBehaviour:
@@ -3105,6 +4511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   text_warn: {fileID: 646874181}
+  firstdialogue: {fileID: 91752038}
 --- !u!4 &1995569430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
@@ -3178,6 +4585,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.name
+      value: 'Novelty '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Novelty refers to enjoyment and excitement emotions of seeing new players
+        or teams that related to sports consumption. Due to the not yet mature of
+        eSport industry, there are a few teams, games that being played. So there
+        is new talent or teams or game constantly added. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a65f05e3477fcce44886114226017daf, type: 3}
 --- !u!1001 &5474890443708317517
@@ -3187,6 +4612,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5722222}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Animations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 7400000, guid: 43fed141a05766c4da398e8cc1a7a85e, type: 2}
     - target: {fileID: 5474890443397600590, guid: a65f05e3477fcce44886114226017daf,
         type: 3}
       propertyPath: m_Name
@@ -3195,7 +4628,7 @@ PrefabInstance:
     - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.492275
+      value: -11.49228
       objectReference: {fileID: 0}
     - target: {fileID: 5474890443397600581, guid: a65f05e3477fcce44886114226017daf,
         type: 3}
@@ -3281,14 +4714,14 @@ PrefabInstance:
     - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: '. The most common video game genres that appear in ESports are multiplayer
+      value: 'The most common video game genres that appear in ESports are multiplayer
         online battle arena, first person shooters, fighting games, card games, battle
         royals, and real time strategy. '
       objectReference: {fileID: 0}
     - target: {fileID: 5474890443397600580, guid: a65f05e3477fcce44886114226017daf,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: . In short most of the games in the ESports world revolve around an online
+      value: In short most of the games in the ESports world revolve around an online
         multiplayer experience, in which players are pitted against each other head
         to head.
       objectReference: {fileID: 0}
